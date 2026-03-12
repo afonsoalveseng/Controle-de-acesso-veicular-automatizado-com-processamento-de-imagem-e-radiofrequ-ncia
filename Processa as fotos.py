@@ -55,7 +55,7 @@ tam_fonte = 20
 numeroFotos = 1   #numero de fotos que você quer processar
 emLoop = 1  #contador para fazer loop 
 while(emLoop <= numeroFotos):
-    arquivo_imagem = cv2.imread('C:/Users/Marlon/Desktop/Fotos/teste'+str(emLoop)+'.jpg') #abre a foto do diretório
+    arquivo_imagem = cv2.imread('C:\Users\adm\OneDrive\AFONSO BACKUP\AFONSO\PHYTON\OCR-easyOCR\placa_fotos\carro'+str(emLoop)+'.jpg') #abre a foto do diretório
     frame = arquivo_imagem.copy()  #faz uma cópia da imagem original
     
     #Reajustar o tamanho da imagem
